@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence-unit>
+    <properties>
+        <property key="driver" value="org.postgresql.Driver"/>
+        <property key="url" value="jdbc:postgresql://localhost/testdb"/>
+        <property key="username" value="postgres"/>
+        <property key="password" value="postgres"/>
+        <property key="generation_schema" value="drop-and-create"/>
+    </properties>
+</persistence-unit>
